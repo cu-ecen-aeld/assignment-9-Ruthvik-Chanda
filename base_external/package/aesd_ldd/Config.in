@@ -1,0 +1,5 @@
+config BR2_PACKAGE_AESD_LDD
+	bool "aesd_ldd"
+	help
+	  Includes the .ko compiled for aesd_char driver in the kernel.
+	  Used to understand buildroot external trees and package builds.
